@@ -17,26 +17,31 @@ public class Main {
     }
 
     // create a divide function
+    
     public static int divide(int a, int b) {
         return a / b;
     }
 
     // create a multiply function
+    
     public static int multiply(int a, int b) {
         return a * b;
     }
 
     // create a subtract function
+    
     public static int subtract(int a, int b) {
         return a - b;
     }
 
     // create a modulus function
+    
     public static int modulus(int a, int b) {
         return a % b;
     }
 
     // create a factorial function
+    
     public static int factorial(int a) {
         int fact = 1;
         for (int i = 1; i <= a; i++) {
@@ -46,6 +51,7 @@ public class Main {
     }
 
     // create a fibonacci function
+    
     public static int fibonacci(int a) {
         if (a == 0) {
             return 0;
@@ -67,6 +73,7 @@ public class Main {
     }
 
     // create a square root function
+    
     public static double squareRoot(int a) {
         double t;
         double squareRoot = a / 2;
@@ -78,6 +85,7 @@ public class Main {
     }
 
     // create a cube root function
+    
     public static double cubeRoot(int a) {
         double t;
         double cubeRoot = a / 3;
@@ -89,6 +97,7 @@ public class Main {
     }
 
     // create a absolute value function
+    
     public static int absoluteValue(int a) {
         if (a < 0) {
             return -a;
@@ -108,6 +117,7 @@ public class Main {
     }
 
     // create a cosine function
+    
     public static double cosine(int a) {
         double cosine = 0;
         for (int i = 0; i < 10; i++) {
@@ -241,10 +251,4 @@ public static double inverseTangent(int a) {
     public static double inverseDivide(int a, int b) {
         return 1 / divide(a, b);
     }
-
-    // create an inverse add function
-
-
-
-
 }
